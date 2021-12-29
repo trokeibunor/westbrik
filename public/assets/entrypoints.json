@@ -1,0 +1,19 @@
+{
+  "entrypoints": {
+    "style": {
+      "css": ["http://localhost:8080/style/style.css"]
+    },
+    "home": {
+      "css": ["http://localhost:8080/style/home.css"]
+    },
+    "personal": {
+      "css": ["http://localhost:8080/style/personal.css"]
+    },
+    "loans": {
+      "css": ["http://localhost:8080/style/loan.css"]
+    },
+    "investment": {
+      "css": ["http://localhost:8080/style/investment.css"]
+    }
+  }
+}

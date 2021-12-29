@@ -1,0 +1,59 @@
+@layout('layout')
+@section('head')
+@entryPointStyles('investment')
+@endsection
+<!-- end of the head section-->
+<!-- Beginning of the body section-->
+@section('header')
+  <header>
+      @include('partials/nav.edge')
+      <div class="page_notice">
+        <p>Investment and crypto Deposits</p>
+    </div>
+  </header>
+@endsection
+@section('content')
+  <!-- Beginning of Hero Section -->
+    <section class="hero">
+        <div id="hero-left">
+            <h4>Confident about your financial plan?
+            </h4>
+            <h5>
+                We can Help you acheive your goals
+            </h5>
+            <a href="#" class="button-lg">Learn More</a>
+        </div>
+        <div id="hero-right">
+            <div id="signCard">
+                <form action="#" method="post">
+                    <div id="title">
+                        Sign On
+                    </div>
+                    <div class="radio-inline">
+                        <label for="online" class="online"><input type="radio" id="online" name="fav_option" value="Online Banking"> Online Banking</label>
+                        <label for="business" class="business"><input type="radio" id="business" name="fav_option" value="Business Online"><span> Business Online</span></label>
+                    </div>
+                    <div class="form-content">
+                        <div class="user-id">
+                            <input type="text" name="userid" id="userid" placeholder="user Id">
+                        </div>
+                        <div class="password">
+                            <input type="password" name="password" id="password" placeholder="password">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="remember" id="remember"> <span>Remember User ID</span>
+                        </div>
+                        <button class="submitbutton" type="submit">Submit</button>
+                        <div class="supportLinks">
+                            <a href="#">ForgotPassword/ID</a>
+                            <a href="#">Sign Up Now</a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+  <!-- End of Hero Section -->
+  <!-- Simple description -->
+@endsection
