@@ -20,6 +20,7 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+import View from '@ioc:Adonis/Core/View'
 Route.get('/welcome', async ({ view }) => {
   return view.render('welcome')
 })
@@ -43,7 +44,7 @@ Route.get('/investment', ({ view }) => {
 })
 Route.get('/about', () => {
   // this link is for the about page
-  return 'Get/about'
+  return View.render('page/about')
 })
 Route.get('/terms', () => {
   // This page is for the terms and conditions

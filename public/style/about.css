@@ -1,0 +1,136 @@
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/about_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  overflow: hidden;
+}
+#hero-left {
+  display: grid;
+  grid-column: 1;
+  width: 30rem;
+  height: auto;
+  justify-self: start;
+  margin-left: 5rem;
+  align-self: center;
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+#hero-left h3 {
+  width: 70%;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  line-height: 2, 5rem;
+  font-weight: 200;
+}
+.button-md {
+  width: 150px;
+  height: 40px;
+  margin: 20px 0 0 2px;
+  display: block;
+  padding: 10px;
+  background: #c94c04;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+/* first grid */
+.first_grid {
+  margin: 2.5rem 5rem;
+  color: #333;
+}
+.first-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.5rem;
+}
+.text_box {
+  display: grid;
+  grid-column: 1;
+}
+.text_box h2 {
+  margin: 1.5rem 0rem;
+}
+.text_box p {
+  margin: 1.5rem 0rem;
+}
+.image_box {
+  display: grid;
+  grid-column: 2;
+}
+/* Second grid */
+.second_grid {
+  margin: 0px;
+}
+.second-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
+  height: 150vh;
+}
+.image_one {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+.text_one {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #003b71;
+  color: #fff;
+}
+.text_one h2 {
+  margin: 0px 2.5rem;
+}
+.text_one p {
+  margin: 1rem 2.5rem !important;
+}
+.text_two {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc6b84;
+  color: #fff;
+}
+.text_two div {
+  margin: 0px 2.5rem;
+}
+/* Third grid */
+.third_grid {
+  margin: 2.5rem 5rem;
+}
+.third-grid {
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+.third-grid .image_box {
+  display: grid;
+  grid-column: 1;
+}
+.third-grid .text_box {
+  display: grid;
+  grid-column: 2;
+  justify-self: center;
+  align-items: center;
+}
+.third-grid .text_box div {
+  margin: auto 2.5rem;
+}

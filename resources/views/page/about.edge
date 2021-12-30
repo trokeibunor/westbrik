@@ -1,0 +1,217 @@
+@layout('layout')
+@section('head')
+<link rel="stylesheet" href="/style/about.css">
+@endsection
+{{--  Beginning of Header section  --}}
+@section('header')
+  <header>
+      @include('partials/nav.edge')
+      <div class="page_notice">
+          <p>About Westbrik</p>
+      </div>
+  </header>
+@endsection
+{{--  End of header section  --}}
+@section('content')
+  {{--  <!--Beginning go Hero Section-->  --}}
+  <section class="hero">
+    <div id="hero-left">
+        <h3>
+            We’re building
+            a better future
+            together
+        </h3>
+        <a href="#" class="button-md">Learn More</a>
+    </div>
+    <div id="hero-right">
+        
+    </div>
+  </section>
+  {{--  <!-- End of Hero Section -->  --}}
+  {{--  Beginning of first grid  --}}
+  <section class="first_grid">
+      <div class="first-grid">
+          <div class="text_box">
+            <h2>What gets you out of bed in the morning?</h2>
+            <p>
+                Your answer is a reflection of who you are, 
+                what you value, where you want to go in life 
+                — and playing a role in helping you take on 
+                that challenge and achieve your aspirations 
+                is what we love most about our purpose as WestBrik
+                teammates.
+            </p>
+            <p>
+                We’ve helped musicians in Nashville hit the right 
+                notes in getting their careers started, family
+                businesses grow and go multinational,
+                and newlyweds start their life together
+                by financing their first home.
+            </p>
+            <p>
+                Our purpose, Lighting the Way to Financial Well-Being,
+                takes many forms, but put simply: whatever drives your
+                purpose at whatever stage of life—we’re here to help you
+                live it, every day.
+            </p>
+          </div>
+          <div class="image_box">
+            <img style="width: 100%; height: auto;" src="/images/about_next.jpg" alt="">
+          </div>
+      </div>
+  </section>
+  {{--  End of first grid  --}}
+  {{--  Beginning of second grid  --}}
+  <section class="second_grid">
+      <div class="second-grid">
+          <div class="image_one">
+            <img style="width: 100%; height: 100%;" src="/images/child_smile.jpg" alt="">
+          </div>
+          <div class="text_one">
+            <div>
+                <h2>Everyone can achieve financial confidence</h2>
+                <p>
+                    And it’s our purpose to help you find it. But getting on the right path 
+                    and avoiding roadblocks is an ongoing challenge. That’s why we launched 
+                    The onUp Movement. To help people move onward and upward toward financial 
+                    confidence — with less stress of “what if” and more freedom to focus on 
+                    “what’s next.” To date, we’ve helped over 4 million people (and counting) 
+                    find the right tools, resources and motivation on their journey toward a life well spent.
+                </p>
+            </div>
+          </div>
+          <div class="text_two">
+              <div>
+                  <h2>
+                    Take it one step at a time
+                  </h2>
+                  <p>
+                    You’re not alone in this journey toward financial confidence—nor should 
+                    you be. It’s different for everyone, but here are some resources that 
+                    could help:
+                  </p>
+                  <p>
+                    The onUp Movement: a community of people gaining more financial confidence—breaking 
+                    taboos and sharing what they learn. It’s made for everyone and it’s easy to join.
+                  </p>
+                  <p>
+                    Momentum onUp®: an industry-leading workplace financial wellness program designed to 
+                    inspire, educate, and equip employees. Offered as a part of its purpose of Lighting 
+                    the Way to Financial Well-Being, SunTrust does not seek to make a profit from the program. 
+                    See how Momentum onUp can help your employees and your business achieve financial confidence.
+                  </p>
+                  <p>
+                    Community Programs: that support education, reach more people and build a vision for the future.
+                  </p>
+              </div>
+          </div>
+          <div class="image_two">
+            <img style="width: 100%; height: 100%;" src="/images/about_background.jpg" alt="">
+          </div>
+      </div>
+  </section>
+  {{--  End of second grid  --}}
+  {{--  Beginning of third section  --}}
+  <section class="third_grid">
+    <div class="third-grid">
+        <div class="image_box">
+            <img style="width: 100%; height: auto;" src="/images/about_next.jpg" alt="">
+        </div>
+        <div class="text_box">
+            <div>
+                <h1>Our teammates make it all possible</h2>
+                    <p>
+                        We are so passionate about putting our purpose into 
+                        action that we literally gave our own shoes to a flood 
+                        victim who came into a branch seeking help. (True story.) 
+                        Or drove 50 miles to bring a new ATM card to a veteran who 
+                        couldn’t leave his base. (Also a true story.)
+                    </p>
+                    <p>
+                        There are many stories just like this, and every single 
+                        one shows the difference that living with purpose—and building 
+                        your confidence—can make.
+                    </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  {{-- End of third section   --}}
+    {{--  <!-- End of text info section-->  --}}
+  {{--  <!-- Resource center Links-->  --}}
+  <section class="resource">
+    <div class="res-left">
+      <div class="sub-header">
+          <h5>
+              Loans Resource Center
+          </h5>
+      </div>
+      <div class="resource-list">
+          <ul class="res-link">
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">5 Things You Need to be Approved for a Loan</a>
+                      <p>Applying for a loan? Here are five things you need to know before visiting your banker.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">How to Rebuild Your Credit After Bankruptcy</a>
+                      <p>Bankruptcy isn’t something you can recover from overnight, but the sooner you start rebuilding, the better off you’ll be. These tips show you where to start.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">3 Steps to Take After Identity Theft</a>
+                      <p>With 16.7 million Americans being victims of fraud in 2017, take action to make sure you’re able to bounce back quickly.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">Credit vs. Debit: Make the Most of the Cards You Carry</a>
+                      <p>Credit and debit cards may look nearly identical—and do a lot of the same things—but understanding their differences can help you spend smarter and save money.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">Have a Rewards Card? Avoid These 5 Common Mistakes</a>
+                      <p>Nearly one-third of cardholders never cash in their credit card rewards. Don’t be one of them.</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+    </div>
+    <div class="res-right">
+      <div class="help-links">
+          <h4>Helpful link</h4>
+          <ul>
+              <li><a class="list-link" href="#">Help Center</a></li>
+          
+              <li><a class="list-link" href="#">Facts About Banking</a></li>
+          
+              <li><a class="list-link" href="#">Learn More About SunTrust</a></li>
+          </ul>
+          <h5>Contact Us</h5>
+          <ul class="low-list">
+              <li>
+                  <h6>800.SUNTRUST</h6>
+                  <p>(Existing Loans and Lines)</p>
+              </li>
+              <li>
+                  <h6>800.279.4824</h6>
+                  <p>For new applicants</p>
+                  <a href="#">Message Us</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+</section>
+{{--  <!-- End of resource center Links -->  --}}
+@include('partials/footer.edge')
+@endsection
