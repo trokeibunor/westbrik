@@ -1,0 +1,220 @@
+@layout('layout')
+@section('head')
+<link rel="stylesheet" href="/style/loan.css">
+@endsection
+{{--  <!--end of head section-->  --}}
+{{--  <!--Beginning of Body-->  --}}
+@section('header')
+<header>
+    @include('partials/nav.edge')
+    <div class="page_notice">
+        <p>Bank Credits and Loans</p>
+    </div>
+</header>
+@endsection
+@section('content')
+  {{--  <!--Beginning go Hero Section-->  --}}
+  <section class="hero">
+    <div id="hero-left">
+        <h3>
+            Get great low rates on a
+            Home Equity Line of Credit.
+        </h3>
+        <a href="#" class="button-md">Learn More</a>
+    </div>
+    <div id="hero-right">
+        
+    </div>
+  </section>
+  {{--  <!-- End of Hero Section -->  --}}
+  {{--  <!-- Beginning of Select section-->  --}}
+  <section class="select">
+      <div class="select-box">
+            <label for="suntrust-control-drop-450319195" class="suntrust-label">
+                <div class="rteSection"><p>&nbsp;I would like to:</p>
+                </div>
+            </label>
+            <div class="select-container">
+                <select class="suntrust-select form-control suntrust-comboBoxloans" id="suntrust-control-drop-450319195">
+                    <option value="">Select one</option>
+                    <option value="/loans/other-loans#">Pay for personal expenses</option>
+                
+                    <option value="/credit-cards#">Find the right credit card</option>
+                
+                    <option value="/loans/debt-consolidation#">Consolidate debt</option>
+                
+                    <option value="/loans/auto-loans-financing#">Buy or refinance a car</option>
+                
+                    <option value="/loans/home-improvement#">Make home improvements</option>
+                
+                    <option value="/loans/other-loans/physician-doctor-loans-credit-line#">Get a physicians loan or line of credit</option>
+                
+                    <option value="/home-mortgages#">Buy a home</option>
+                
+                    <option value="/loans/recreational-vehicle-loans/rv-motorhome-loans-financing#">Buy or refinance a motorhome or RV</option>
+                
+                    <option value="/loans/recreational-vehicle-loans/marine-boat-loans-financing#">Buy or refinance a boat</option>
+                
+                    <option value="/loans/recreational-vehicle-loans/motorcycle-loans-financing#">Buy a motorcycle</option>
+                
+                    <option value="/loans/other-loans/unsecured-loans#">Pay for adoption or IVF</option>
+                </select>
+            </div>
+      </div>
+  </section>
+  {{--  <!-- End of select section-->  --}}
+  {{--  <!-- Info & grid section-->  --}}
+  <section class="info-grid">
+      <div class="top-info">
+          <h3>
+            We have options to help your budget cover unexpected expenses like laptops, printers and desks. Contact us to discuss flexible lending solutions that work for you.
+          </h3>
+      </div>
+      <div class="button-row">
+          <a href="tel:+" class="tel_button">Call now: 800.271.8390</a>
+          <a href="#" class="schedule_button">Schedule an appointment </a>
+      </div>
+      <div class="grid-holder" id="card-section">
+        <div class="card_one">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_two">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_three">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_four">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_five">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+      </div>
+  </section>
+  {{--  <!-- End of Info and grid section-->  --}}
+  {{--  <!-- Text info section-->  --}}
+  <section class="text-info">
+      <h5>Important Information About These Products</h5>
+      <p>Subject to credit approval, eligibility and credit qualifications.</p>
+      <p><sup>1</sup>&nbsp;Your loan terms, including APR, may differ based on loan purpose, amount, term length, and your credit profile. Rate is quoted with AutoPay discount. AutoPay discount is only available prior to loan funding. Rates without AutoPay are 0.50% higher. Subject to credit approval. Conditions and limitations apply. Advertised rates and terms are subject to change without notice.&nbsp;</p>
+      <p>View a list of&nbsp;<a href="/content/dam/suntrust/us/en/loans/2017/documents/safe-act.pdf" title="SunTrust Bank's Registered Loan Officers" target="_blank">SunTrust Bank's Registered Loan Officers <span class="suntrust-accessible-text">Link opens in a new window.</span></a>&nbsp;and their NMLS Identifiers (updated weekly). To access the Nationwide Mortgage Licensing System and Registration (NMLSR) database to confirm registration of any mortgage lending professional, visit&nbsp;<a href="/dotcom/external?clickedUrl=http://www.nmlsconsumeraccess.org/" target="_blank">http://www.nmlsconsumeraccess.org/<span class="suntrust-accessible-text">Link opens in a new window.</span></a>, enter the unique NMLS identification number and click "Search".<br>
+      </p>
+  </section>
+  {{--  <!-- End of text info section-->  --}}
+  {{--  <!-- Resource center Links-->  --}}
+  <section class="resource">
+      <div class="res-left">
+        <div class="sub-header">
+            <h5>
+                Loans Resource Center
+            </h5>
+        </div>
+        <div class="resource-list">
+            <ul class="res-link">
+                <li>
+                    <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                    <div class="text-box">
+                        <a href="#">5 Things You Need to be Approved for a Loan</a>
+                        <p>Applying for a loan? Here are five things you need to know before visiting your banker.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                    <div class="text-box">
+                        <a href="#">How to Rebuild Your Credit After Bankruptcy</a>
+                        <p>Bankruptcy isn’t something you can recover from overnight, but the sooner you start rebuilding, the better off you’ll be. These tips show you where to start.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                    <div class="text-box">
+                        <a href="#">3 Steps to Take After Identity Theft</a>
+                        <p>With 16.7 million Americans being victims of fraud in 2017, take action to make sure you’re able to bounce back quickly.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                    <div class="text-box">
+                        <a href="#">Credit vs. Debit: Make the Most of the Cards You Carry</a>
+                        <p>Credit and debit cards may look nearly identical—and do a lot of the same things—but understanding their differences can help you spend smarter and save money.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                    <div class="text-box">
+                        <a href="#">Have a Rewards Card? Avoid These 5 Common Mistakes</a>
+                        <p>Nearly one-third of cardholders never cash in their credit card rewards. Don’t be one of them.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div class="res-right">
+        <div class="help-links">
+            <h4>Helpful link</h4>
+            <ul>
+				<li><a class="list-link" href="#">Help Center</a></li>
+			
+				<li><a class="list-link" href="#">Facts About Banking</a></li>
+			
+				<li><a class="list-link" href="#">Learn More About SunTrust</a></li>
+			</ul>
+            <h5>Contact Us</h5>
+            <ul class="low-list">
+                <li>
+                    <h6>800.SUNTRUST</h6>
+                    <p>(Existing Loans and Lines)</p>
+                </li>
+                <li>
+                    <h6>800.279.4824</h6>
+                    <p>For new applicants</p>
+                    <a href="#">Message Us</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+  </section>
+  {{--  <!-- End of resource center Links -->  --}}
+  @include('partials/footer.edge')
+@endsection

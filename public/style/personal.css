@@ -1,0 +1,275 @@
+/* The Beginning of Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: 70vh;
+  background-image: url('/images/personal_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  overflow: hidden;
+}
+#hero-left {
+  display: grid;
+  grid-column: 1;
+  width: 25rem;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  text-transform: capitalize;
+  margin-top: 1rem;
+}
+#hero-left h3 {
+  width: 60%;
+  color: #000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 200;
+}
+#hero-left h6 {
+  width: 75%;
+  height: auto;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 100;
+}
+.button-md {
+  width: 100px;
+  height: 20px;
+  margin: 20px 0 0 2px;
+  display: block;
+  padding: 10px;
+  background: #045eb3;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+#hero-right {
+  display: grid;
+  grid-column: 2;
+  justify-content: center;
+  align-content: center;
+}
+#signCard {
+  position: relative;
+  z-index: 2;
+  border-radius: 4px;
+  width: 20rem;
+  height: 22rem;
+  background-color: rgb(46, 44, 44);
+  color: #fff;
+}
+#title {
+  height: 20%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 20px 0px 0px 25px;
+}
+.radio-inline {
+  display: flex;
+  margin: 15px 0px 5px 25px;
+  font-weight: 200;
+}
+.online {
+  padding-right: 10px;
+}
+.online .business {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-content {
+  margin: 0px auto 5px 25px;
+}
+.user-id input {
+  width: 85%;
+  height: 1.5rem;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.password input {
+  width: 85%;
+  height: 1.5rem;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.checkbox {
+  font-size: 14px;
+}
+.checkbox span {
+  height: 18px;
+  /* font-size: 18px; */
+  font-weight: 200;
+}
+#remember {
+  width: 18px;
+  height: 18px;
+}
+.submitbutton {
+  background: #c94c06;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-family: 'suntrustregular', 'Trebuchet MS';
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+.supportLinks {
+  margin-top: 10px;
+  font-weight: 200;
+}
+.supportLinks a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+/* End of Hero Section */
+/* Beginning of Init-info section */
+.init-info {
+  margin: 20px 0px 5rem 5rem;
+}
+.init-info h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.init-info p {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* End of Init-info section */
+/* Beginning of card section */
+.card_sec {
+  border-top: 1px solid #045eb32c;
+  background-color: rgba(0, 0, 0, 0.062);
+}
+#card-section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: auto 5rem;
+}
+#card-section div {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin: 2.5rem auto;
+  border-radius: 4px;
+}
+#card-section div img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+#card-section div h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 20px;
+}
+#card-section div p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 10px 20px;
+}
+#card-section div .button-sm {
+  width: 100px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #c94c06;
+  text-decoration: none;
+  margin: 20px 20px;
+}
+.card_one {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.card_two {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.card_three {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.card_four {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+.card_five {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+.card_six {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+/* Beginning of service list section */
+.service_list {
+  margin: 20px 5rem;
+  background-color: #fff;
+}
+.service_list h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 2.5rem 0px;
+}
+.service_list ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.service_list li {
+  width: 150px;
+  height: auto;
+}
+.service_list li img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+.service_list li a {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-weight: 600;
+  color: #045eb3;
+}
+.service_list li a:hover {
+  color: #c94c06;
+}
+/* End of service list section */

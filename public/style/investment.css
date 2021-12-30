@@ -1,0 +1,257 @@
+/* For the Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/investment_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  overflow: hidden;
+}
+#hero-left {
+  display: grid;
+  grid-column: 1;
+  width: 25rem;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  text-transform: capitalize;
+  margin-top: 5rem;
+}
+#hero-left h4 {
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.7rem;
+  line-height: 2.7rem;
+  font-weight: 200;
+}
+#hero-left h5 {
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 100;
+  color: #fff;
+}
+.button-lg {
+  width: 125px;
+  height: 20px;
+  margin: 20px 0 0 2px;
+  display: block;
+  padding: 18px;
+  background: #003b71;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+#hero-right {
+  display: grid;
+  grid-column: 2;
+  justify-content: center;
+  align-content: center;
+}
+#signCard {
+  position: relative;
+  z-index: 2;
+  border-radius: 4px;
+  width: 20rem;
+  height: 22rem;
+  background-color: rgb(46, 44, 44);
+  color: #fff;
+}
+#title {
+  height: 20%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 20px 0px 0px 25px;
+}
+.radio-inline {
+  display: flex;
+  margin: 15px 0px 5px 25px;
+  font-weight: 200;
+}
+.online {
+  padding-right: 10px;
+}
+.online .business {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-content {
+  margin: 0px auto 5px 25px;
+}
+.user-id input {
+  width: 85%;
+  height: 1.5rem;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.password input {
+  width: 85%;
+  height: 1.5rem;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.checkbox {
+  font-size: 14px;
+}
+.checkbox span {
+  height: 18px;
+  /* font-size: 18px; */
+  font-weight: 200;
+}
+#remember {
+  width: 18px;
+  height: 18px;
+}
+.submitbutton {
+  background: #c94c06;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-family: 'suntrustregular', 'Trebuchet MS';
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+.supportLinks {
+  margin-top: 10px;
+  font-weight: 200;
+}
+.supportLinks a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+/* Simple description */
+.simp_desc {
+  margin: 2.5rem 5rem;
+  color: #333;
+}
+.simp_desc h4 {
+  font-size: 24px;
+  font-weight: 200;
+}
+/* Table grid */
+.table-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  max-width: 100%;
+  margin: 2.5rem 5rem;
+  overflow-x: hidden;
+}
+.table {
+  display: grid;
+  grid-column: 1;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+thead {
+  width: 100%;
+  background-color: #003b71;
+  height: 3rem;
+  color: #fff;
+}
+th {
+  font-size: 16px;
+  font-weight: 600;
+}
+thead tr th {
+  padding: 1.75rem;
+}
+tbody tr {
+  border-bottom: 1px solid #333;
+}
+tbody tr th {
+  padding: 0.85rem;
+}
+.opp-text {
+  display: grid;
+  grid-column: 2;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  color: #333;
+}
+.opp-text h5 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0px;
+}
+.opp-text p {
+  width: 80%;
+  margin: 10px 0px;
+}
+/* Notice Section */
+.notice_section {
+  background-color: seashell;
+  text-align: center;
+}
+.notice {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  width: 100%;
+  height: 50vh;
+  margin: 2.5rem auto;
+}
+.notice div {
+  display: grid;
+  width: auto;
+  height: 50vh;
+}
+.notice_one {
+  grid-column: 1;
+}
+.notice_two {
+  grid-column: 2;
+}
+.notice_three {
+  grid-column: 3;
+}
+.notice div h5 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.notice div img {
+  width: 100%;
+  height: 30%;
+  /* object-fit: cover; */
+  margin-bottom: 0px;
+}
+.notice div ul {
+  list-style: none;
+  margin-top: 0px;
+}
+.notice div ul li {
+  font-size: 0.85rem;
+}

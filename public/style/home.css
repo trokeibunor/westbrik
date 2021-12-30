@@ -1,0 +1,340 @@
+/* For the Hero Section */
+.hero {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  height: 85vh;
+  background-image: url('/images/westbrikbackground2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  overflow: hidden;
+}
+#hero-left {
+  display: grid;
+  grid-column: 1;
+  width: 25rem;
+  height: auto;
+  justify-self: center;
+  align-self: center;
+  text-transform: capitalize;
+  margin-top: 5rem;
+}
+#hero-left h4 {
+  color: #000;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.7rem;
+  line-height: 2.7rem;
+  font-weight: 200;
+}
+#hero-left h5 {
+  width: 75%;
+  height: auto;
+  margin-top: 0.5rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 100;
+}
+.button-lg {
+  width: 125px;
+  height: 20px;
+  margin: 20px 0 0 2px;
+  display: block;
+  padding: 18px;
+  background: #c94c04;
+  color: #fff;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+#hero-right {
+  display: grid;
+  grid-column: 2;
+  justify-content: center;
+  align-content: center;
+}
+#signCard {
+  position: relative;
+  z-index: 2;
+  border-radius: 4px;
+  width: 20rem;
+  height: 22rem;
+  background-color: rgb(46, 44, 44);
+  color: #fff;
+}
+#title {
+  height: 20%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 20px 0px 0px 25px;
+}
+.radio-inline {
+  display: flex;
+  margin: 15px 0px 5px 25px;
+  font-weight: 200;
+}
+.online {
+  padding-right: 10px;
+}
+.online .business {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-content {
+  margin: 0px auto 5px 25px;
+}
+.user-id input {
+  width: 85%;
+  height: 1.5rem;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.password input {
+  width: 85%;
+  height: 1.5rem;
+  padding: 10px 0px 10px 10px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.checkbox {
+  font-size: 14px;
+}
+.checkbox span {
+  height: 18px;
+  /* font-size: 18px; */
+  font-weight: 200;
+}
+#remember {
+  width: 18px;
+  height: 18px;
+}
+.submitbutton {
+  background: #c94c06;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
+  font-family: 'suntrustregular', 'Trebuchet MS';
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+.supportLinks {
+  margin-top: 10px;
+  font-weight: 200;
+}
+.supportLinks a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+/* End of Hero Section */
+/* Beginning of Product Section */
+.products {
+  margin: 5rem;
+}
+.products h5 {
+  margin-bottom: 3rem;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+}
+.options {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+.options div {
+  display: grid;
+  width: 11rem;
+  height: 11rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+}
+.options div a {
+  margin-top: 12rem;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  width: 75%;
+  color: #003b71;
+}
+.options div a:hover {
+  color: #c94c06;
+}
+.personal {
+  grid-column: 1;
+  background-image: url('/images/personal_checking.jpg');
+}
+.investments {
+  grid-column: 2;
+  background-image: url('/images/investments.jpg');
+}
+.account {
+  grid-column: 3;
+  background-image: url('/images/account_management.jpg');
+}
+.loans {
+  grid-column: 4;
+  background-image: url('/images/loans.jpg');
+}
+.deposits {
+  grid-column: 5;
+  background-image: url('/images/deposits.jpg');
+}
+.terms {
+  grid-column: 6;
+  background-image: url('/images/terms.jpg');
+}
+.learn_more {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.learn_more div h4 {
+  margin-bottom: 2rem;
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: #003b71;
+}
+.learn_more div p {
+  width: 85%;
+  font-size: 1.125;
+  line-height: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.35rem;
+}
+.learn_more div a {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #003b71;
+}
+/* The end of Product section */
+.new_info {
+  width: 100%;
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #fff;
+}
+.info_left {
+  display: grid;
+  background-color: #003b71;
+}
+.info_left .text {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  margin-top: 5rem;
+}
+.text h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+.text p {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.info_right {
+  display: grid;
+  background-color: #045eb3;
+}
+.info_right .text {
+  width: 65%;
+  text-align: left;
+  margin: auto;
+  margin-top: 5rem;
+}
+.app {
+  width: 100%;
+  height: 65vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.app_link {
+  width: 60%;
+  margin: auto;
+  margin-top: 7rem;
+}
+.app_link .text h1 {
+  font-size: 1.5rem;
+}
+.app_link .text .button {
+  background-color: #003b71;
+  color: #fff;
+  width: 150px;
+  height: 3rem;
+  border-radius: 4px;
+  text-align: center;
+}
+.app_link .text .button a {
+  text-decoration: none;
+  line-height: 3rem;
+}
+.app_img img {
+  margin-top: 1.8rem;
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+.little_info {
+  width: 100%;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  box-shadow: inset 0 0 0 2000px rgba(51, 50, 51, 0.3);
+  background-image: url('/images/section_background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 75vh;
+}
+.little_info .right {
+  display: grid;
+  background-color: #fff;
+  justify-self: center;
+  align-self: center;
+  width: 90%;
+  height: 60vh;
+}
+.right .text {
+  width: 85%;
+  margin: auto;
+}
+.right .text p {
+  width: 65%;
+  font-size: 16px;
+}
+.right .text button {
+  width: 25%;
+  height: 3rem;
+  background-color: #003b71;
+  border-radius: 3px;
+}
+.right .text button a {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+    sans-serif;
+  line-height: 3rem;
+  padding: auto;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}

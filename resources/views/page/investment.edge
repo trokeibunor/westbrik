@@ -1,0 +1,239 @@
+@layout('layout')
+@section('head')
+<link rel="stylesheet" href="/style/investment.css">
+@endsection
+{{--  <!-- end of the head section-->  --}}
+{{--  <!-- Beginning of the body section-->  --}}
+@section('header')
+  <header>
+      @include('partials/nav.edge')
+      <div class="page_notice">
+        <p>Investment and crypto Deposits</p>
+    </div>
+  </header>
+@endsection
+@section('content')
+  {{--  <!-- Beginning of Hero Section -->  --}}
+    <section class="hero">
+        <div id="hero-left">
+            <h4>Confident about your financial plan?
+            </h4>
+            <h5>
+                We can Help you acheive your goals
+            </h5>
+            <a href="#" class="button-lg">Learn More</a>
+        </div>
+        <div id="hero-right">
+            <div id="signCard">
+                <form action="#" method="post">
+                    <div id="title">
+                        Sign On
+                    </div>
+                    <div class="radio-inline">
+                        <label for="online" class="online"><input type="radio" id="online" name="fav_option" value="Online Banking"> Online Banking</label>
+                        <label for="business" class="business"><input type="radio" id="business" name="fav_option" value="Business Online"><span> Business Online</span></label>
+                    </div>
+                    <div class="form-content">
+                        <div class="user-id">
+                            <input type="text" name="userid" id="userid" placeholder="user Id">
+                        </div>
+                        <div class="password">
+                            <input type="password" name="password" id="password" placeholder="password">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="remember" id="remember"> <span>Remember User ID</span>
+                        </div>
+                        <button class="submitbutton" type="submit">Submit</button>
+                        <div class="supportLinks">
+                            <a href="#">ForgotPassword/ID</a>
+                            <a href="#">Sign Up Now</a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+  {{--  <!-- End of Hero Section -->  --}}
+  {{--  <!-- Simple description -->  --}}
+  <section class="simp_desc">
+    <h4>A simple rule for retirement saving</h4>
+    <p>
+        While there’s no such thing as a magic number that assures you of a comfortable retirement, 
+        there is a simple rule-of-thumb for how much to save based on your age and annual salary.
+    </p>    
+  </section>
+  {{--  End of simple description  --}}
+  {{--  Beginning of table grid  --}}
+  <div class="table-grid">
+      <div class="table">
+        <table>
+            <thead>
+              <tr>
+                <th scope="col">Age</th>
+                <th scope="col">Salary</th>
+                <th scope="col">Rule of Thumb</th>
+                <th scope="col">Retirement Savings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" data-label="Age">30</th>
+                <td data-label="Salary">$55,000</td>
+                <td data-label="Rule"><span class="dcm-highlight-orange">2X</span> Salary</td>
+                <td data-label="Retirement Savings"><span class="dcm-highlight-orange"><strong>$110,000</strong></span></td>
+              </tr>
+              <tr>
+                <th scope="row" data-label="Age">45</th>
+                <td data-label="Salary">$80,000</td>
+                <td data-label="Rule"><span class="dcm-highlight-orange">4X</span> Salary</td>
+                <td data-label="Retirement Savings"><span class="dcm-highlight-orange"><strong>$320,000</strong></span></td>
+              </tr>
+              <tr>
+                <th scope="row" data-label="Age">55</th>
+                <td data-label="Salary">$95,000</td>
+                <td data-label="Rule"><span class="dcm-highlight-orange">7X</span> Salary</td>
+                <td data-label="Retirement Savings"><span class="dcm-highlight-orange"><strong>$665,000</strong></span></td>
+              </tr>
+              <tr>
+                <th scope="row" data-label="Age">67</th>
+                <td data-label="Salary">$110,000</td>
+                <td data-label="Rule"><span class="dcm-highlight-orange">10X</span> Salary</td>
+                <td data-label="Retirement Savings"><span class="dcm-highlight-orange"><strong>$1,100,000</strong></span></td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+      <div class="opp-text">
+        <h5>
+            How do your savings compare?
+        </h5>
+        <p>
+            Need to catch-up or want to get ahead? 
+            SunTrust Investment Services (STIS) can help you:
+        </p>
+        <ul>
+            <li>
+                Create a savings strategy you can live with
+            </li>
+            <li>
+                Take advantage of all your tax-deferral opportunities
+            </li>
+            <li>
+                Review your portfolio allocation
+            </li>
+            <li>
+                Put IRS retirement catch-up provisions to use
+            </li>
+        </ul>
+      </div>
+  </div>
+  {{--  End of table grid  --}}
+  {{--  Notice sections  --}}
+  {{--  <section class="notice_section">
+    <div class="notice">
+        <div class="notice_one">
+            <h5>Disclosures</h5>
+            <img src="/images/account_management.jpg" alt="">
+            <ul>
+                <li>WestBrik Investment Services, Inc. Disclosures ></li>
+                <li>WestBrik advisory Services, Inc. Disclosures ></li>
+            </ul>
+            
+            
+        </div>
+        <div class="notice_two">
+            <h5>Disclosures</h5>
+            <img src="/images/account_management.jpg" alt="">
+            <ul>
+                <li>WestBrik Investment Services, Inc. Disclosures ></li>
+                <li>WestBrik advisory Services, Inc. Disclosures ></li>
+            </ul>
+        </div>
+        <div class="notice_three">
+            <h5>Disclosures</h5>
+            <img src="/images/account_management.jpg" alt="">
+            <ul>
+                <li>WestBrik Investment Services, Inc. Disclosures ></li>
+                <li>WestBrik advisory Services, Inc. Disclosures ></li>
+            </ul>
+        </div>
+    </div>
+  </section>  --}}
+  {{--  End of Notice Sections  --}}
+  {{--  <!-- Resource center Links-->  --}}
+  <section class="resource">
+    <div class="res-left">
+      <div class="sub-header">
+          <h5>
+              Loans Resource Center
+          </h5>
+      </div>
+      <div class="resource-list">
+          <ul class="res-link">
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">5 Things You Need to be Approved for a Loan</a>
+                      <p>Applying for a loan? Here are five things you need to know before visiting your banker.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">How to Rebuild Your Credit After Bankruptcy</a>
+                      <p>Bankruptcy isn’t something you can recover from overnight, but the sooner you start rebuilding, the better off you’ll be. These tips show you where to start.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">3 Steps to Take After Identity Theft</a>
+                      <p>With 16.7 million Americans being victims of fraud in 2017, take action to make sure you’re able to bounce back quickly.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">Credit vs. Debit: Make the Most of the Cards You Carry</a>
+                      <p>Credit and debit cards may look nearly identical—and do a lot of the same things—but understanding their differences can help you spend smarter and save money.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">Have a Rewards Card? Avoid These 5 Common Mistakes</a>
+                      <p>Nearly one-third of cardholders never cash in their credit card rewards. Don’t be one of them.</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+    </div>
+    <div class="res-right">
+      <div class="help-links">
+          <h4>Helpful link</h4>
+          <ul>
+              <li><a class="list-link" href="#">Help Center</a></li>
+          
+              <li><a class="list-link" href="#">Facts About Banking</a></li>
+          
+              <li><a class="list-link" href="#">Learn More About SunTrust</a></li>
+          </ul>
+          <h5>Contact Us</h5>
+          <ul class="low-list">
+              <li>
+                  <h6>800.SUNTRUST</h6>
+                  <p>(Existing Loans and Lines)</p>
+              </li>
+              <li>
+                  <h6>800.279.4824</h6>
+                  <p>For new applicants</p>
+                  <a href="#">Message Us</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+</section>
+{{--  <!-- End of resource center Links -->  --}}
+@include('partials/footer')
+@endsection

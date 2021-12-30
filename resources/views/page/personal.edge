@@ -1,0 +1,254 @@
+@layout('layout')
+@section('head')
+<link rel="stylesheet" href="/style/personal.css">
+@endsection
+{{--  <!-- end the head section -->  --}}
+{{--  <!-- Beginning the body section-->  --}}
+@section('header')
+  <header>
+      @include('partials/nav.edge')
+      <div class="page_notice">
+          <p>Personal Banking Services</p>
+      </div>
+  </header>
+@endsection
+@section('content')
+  {{--  <!--Beginning Hero Section-->  --}}
+  <section class="hero">
+    <div id="hero-left">
+        <h3>Invest in your child’s
+            future with a Youth
+            Advantage Savings
+            Account.
+        </h3>
+        <h6>
+            Build financial literacy at an early age
+            to set the stage for financial confidence.
+        </h6>
+        <a href="#" class="button-md">Learn More</a>
+    </div>
+    <div id="hero-right">
+        <div id="signCard">
+            <form action="#" method="post">
+                <div id="title">
+                    Sign On
+                </div>
+                <div class="radio-inline">
+                    <label for="online" class="online"><input type="radio" id="online" name="fav_option" value="Online Banking"> Online Banking</label>
+                    <label for="business" class="business"><input type="radio" id="business" name="fav_option" value="Business Online"><span> Business Online</span></label>
+                </div>
+                <div class="form-content">
+                    <div class="user-id">
+                        <input type="text" name="userid" id="userid" placeholder="user Id">
+                    </div>
+                    <div class="password">
+                        <input type="password" name="password" id="password" placeholder="password">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="remember" id="remember"> <span>Remember User ID</span>
+                    </div>
+                    <button class="submitbutton" type="submit">Submit</button>
+                    <div class="supportLinks">
+                        <a href="#">ForgotPassword/ID</a>
+                        <a href="#">Sign Up Now</a>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+  </section>
+  {{--  <!-- End Hero Section -->  --}}
+  {{--  <!-- Beginning init-info section-->  --}}
+  <section class="init-info">
+      <h4>
+        Select the right
+        tools to build your financial confidence.
+      </h4>
+      <p>
+        The right combination of financial products that best fits your needs and goals can put you at an advantage. 
+        SunTrust banking solutions can help you budget, build your savings, and pave the way for success now and in the future.
+      </p>
+  </section>
+  {{--  <!--End  Init-info section-->  --}}
+  {{--  <!--Beginning  Card section-->  --}}
+  <section class="card_sec">
+    <div id="card-section">
+        <div class="card_one">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_two">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_three">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_four">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_five">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+        <div class="card_six">
+            <img src="/images/investments.jpg" alt="" srcset="">
+            <h5>Checking Investments</h5>
+            <p>
+                Manage your money with confidence, 
+                online or on the go. Find out how to earn rewards and more.
+            </p>
+            <a href="#" class="button-sm">
+                Learn More
+            </a>
+        </div>
+    </div>
+  </section>
+  {{--  <!-- End  card section-->  --}}
+  {{--  <!-- Beginning service_list section-->  --}}
+  <section class="service_list">
+      <h5>
+        Plus, get all the banking essentials, too.
+      </h5>
+      <ul>
+          <li>
+            <img src="/images/transfer.png" alt="" srcset="">
+            <a href="#">Transfer Money</a>
+          </li>
+          <li>
+            <img src="/images/mouse.png" alt="" srcset="">
+            <a href="#">Schedule Bills</a>
+          </li>
+          <li>
+            <img src="/images/telephone.png" alt="" srcset="">
+            <a href="#">Pay-by-Phone</a>
+          </li>
+          <li>
+            <img src="/images/alert.png" alt="" srcset="">
+            <a href="#">Balance Alert</a>
+          </li>
+          <li>
+            <img src="/images/atm.png" alt="" srcset="">
+            <a href="#">Bank at the ATM</a>
+          </li>
+          <li>
+            <img src="/images/magnifying.png" alt="" srcset="">
+            <a href="#">Find Statements</a>
+          </li>
+      </ul>
+  </section>
+  {{--  <!-- End Service_list Section-->  --}}
+  {{--  <!-- Resource center Links-->  --}}
+  <section class="resource">
+    <div class="res-left">
+      <div class="sub-header">
+          <h5>
+              Loans Resource Center
+          </h5>
+      </div>
+      <div class="resource-list">
+          <ul class="res-link">
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">5 Things You Need to be Approved for a Loan</a>
+                      <p>Applying for a loan? Here are five things you need to know before visiting your banker.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">How to Rebuild Your Credit After Bankruptcy</a>
+                      <p>Bankruptcy isn’t something you can recover from overnight, but the sooner you start rebuilding, the better off you’ll be. These tips show you where to start.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">3 Steps to Take After Identity Theft</a>
+                      <p>With 16.7 million Americans being victims of fraud in 2017, take action to make sure you’re able to bounce back quickly.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">Credit vs. Debit: Make the Most of the Cards You Carry</a>
+                      <p>Credit and debit cards may look nearly identical—and do a lot of the same things—but understanding their differences can help you spend smarter and save money.</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="/images/logo.png" style="width:25px; height: 25px" alt="">
+                  <div class="text-box">
+                      <a href="#">Have a Rewards Card? Avoid These 5 Common Mistakes</a>
+                      <p>Nearly one-third of cardholders never cash in their credit card rewards. Don’t be one of them.</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+    </div>
+    <div class="res-right">
+      <div class="help-links">
+          <h4>Helpful link</h4>
+          <ul>
+              <li><a class="list-link" href="#">Help Center</a></li>
+          
+              <li><a class="list-link" href="#">Facts About Banking</a></li>
+          
+              <li><a class="list-link" href="#">Learn More About SunTrust</a></li>
+          </ul>
+          <h5>Contact Us</h5>
+          <ul class="low-list">
+              <li>
+                  <h6>800.SUNTRUST</h6>
+                  <p>(Existing Loans and Lines)</p>
+              </li>
+              <li>
+                  <h6>800.279.4824</h6>
+                  <p>For new applicants</p>
+                  <a href="#">Message Us</a>
+              </li>
+          </ul>
+      </div>
+    </div>
+</section>
+{{--  <!-- End  resource center Links -->  --}}
+  @include('partials/footer.edge')
+@endsection

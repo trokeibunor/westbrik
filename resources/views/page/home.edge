@@ -1,0 +1,176 @@
+@layout("layout")
+@section('head')
+{{--  @entryPointStyles('home')  --}}
+<link rel="stylesheet" href="/style/home.css">
+@endsection
+{{--  end of the head  --}}
+{{--  Beginning of the body  --}}
+@section('header')
+<header>
+    @include('partials/nav.edge')
+</header>
+@endsection
+@section('content')
+    <!-- This is the Hero section-->
+    <section class="hero">
+        <div id="hero-left">
+            <h4>Deposit your checks
+                in a snap.
+            </h4>
+            <h5>
+                Our Mobile App makes depositing a check as easy as taking a picture.
+            </h5>
+            <a href="#" class="button-lg">Learn More</a>
+        </div>
+        <div id="hero-right">
+            <div id="signCard">
+                <form action="#" method="post">
+                    <div id="title">
+                        Sign On
+                    </div>
+                    <div class="radio-inline">
+                        <label for="online" class="online"><input type="radio" id="online" name="fav_option" value="Online Banking"> Online Banking</label>
+                        <label for="business" class="business"><input type="radio" id="business" name="fav_option" value="Business Online"><span> Business Online</span></label>
+                    </div>
+                    <div class="form-content">
+                        <div class="user-id">
+                            <input type="text" name="userid" id="userid" placeholder="user Id">
+                        </div>
+                        <div class="password">
+                            <input type="password" name="password" id="password" placeholder="password">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="remember" id="remember"> <span>Remember User ID</span>
+                        </div>
+                        <button class="submitbutton" type="submit">Submit</button>
+                        <div class="supportLinks">
+                            <a href="#">ForgotPassword/ID</a>
+                            <a href="#">Sign Up Now</a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- The next Section-->
+    <section class="products">
+        <h5 class="title">
+            Products and services to make banking easy
+        </h5>
+        <div class="options">
+            <div class="personal">
+                <a href="#">Personal Checking</a>
+            </div>
+            <div class="investments">
+                <a href="#">Investments</a>
+            </div>
+            <div class="account">
+                <a href="#">Account Management</a>
+            </div>
+            <div class="loans">
+                <a href="#">Loans</a>
+            </div>
+            <div class="deposits">
+                <a href="#">Deposits</a>
+            </div>
+            <div class="terms">
+                <a href="#">Terms & Condition</a>
+            </div>
+        </div>
+        <div class="learn_more">
+            <div>
+                <h4>Credit Card</h4>
+                <p>Enjoy unlimited cash back, travel 
+                    rewards, or balance transfer 
+                    savings with our cards.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h4>Credit Card</h4>
+                <p>Enjoy unlimited cash back, travel 
+                    rewards, or balance transfer 
+                    savings with our cards.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h4>Credit Card</h4>
+                <p>Enjoy unlimited cash back, travel 
+                    rewards, or balance transfer 
+                    savings with our cards.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <h4>Credit Card</h4>
+                <p>Enjoy unlimited cash back, travel 
+                    rewards, or balance transfer 
+                    savings with our cards.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- the Info Section-->
+    <section class="new_info">
+        <div class="info_left">
+            <div class="text">
+                <h1>
+                    SunTrust and BB&T have joined to
+                    become Truist.
+                </h1>
+                <p>
+                    Good news, most clients won't have their deposit account or routing numbers change as a result of the merger.  <a href="#">Learn More ></a>
+                </p>
+            </div>
+        </div>
+        <div class="info_right">
+            <div class="text">
+                <h1>
+                    Truist Announces COVID-19 Relief Measures for Communities, Clients and Teammates
+                </h1>
+                <p>
+                    Truist Financial Corporation announced its Truist Cares initiative to support short-term and long-term needs of communities, 
+                    clients and teammates in response to the COVID-19 pandemic. A pledge of $50 million in philanthropic support will aid in supporting basic needs, medical supplies, and financial hardship. <a href="#">Read More ></a>
+                </p>
+                <h1>
+                    Confidently Face the Unexpected
+                </h1>
+                <p>
+                    Whether it is a hurricane, the death of a loved one, or a job loss, SunTrust’s 
+                    Client Emergency Resource page can help you prepare and respond to life’s unexpected moments. Find easy-to-use personal and financial resources that put emergency financial well-being mobile tools in the palm of your hands. <a href="#">Learn More ></a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="app">
+        <div class="app_link">
+            <div class="text">
+                <h1>Move With Confidence.</h1>
+                <p>Banking on the go is easy with SunTrust Mobile Banking and the SunTrust Mobile App.</p>
+                <div class="button"><a href="#">Get the App</a></div>
+            </div>
+        </div>
+        <div class="app_img">
+            <img src="/images/home-half-banner-phones-screen.png" alt="" srcset="">
+        </div>
+    </section>
+    <section class="little_info">
+        <div class="left">
+            <!-- The empty class-->
+        </div>
+        <div class="right">
+            <div class="text">
+                <h1>Find Your Path to Financial Confidence</h1>
+                <p>
+                    Browse the resources that are right for you—
+                    relevant articles, stories, and tools.
+                </p>
+                <button><a href="#">Learn More</a></button>
+            </div>
+        </div>
+    </section>
+    @include('partials/footer')
+@endsection
