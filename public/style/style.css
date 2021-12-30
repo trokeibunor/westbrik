@@ -110,6 +110,8 @@ nav {
   justify-content: flex-start;
   padding: 5px;
   margin: 0px 2px;
+  border-radius: 4px;
+  border: 1px #003b71 solid;
 }
 #signup a {
   text-decoration: none;
