@@ -1,0 +1,86 @@
+<nav class="nav-mobile">
+  <div class="logo">
+      <img src="/images/logo.png" alt="" srcset="">
+      <h4 style="font-size: 2.5rem">WestBrikBank</h4>
+  </div>
+  <i class="fas fa-bars fa-2x" id="hamburger-icon"></i>
+</nav>
+<div class="hamburger-menu">
+  <div class="sidebar" id="sidebars">
+    <div class="close-icon" id="close" onclick="closeNav() ">
+      <ion-icon name="close-outline"></ion-icon>
+    </div>
+    
+    <ul class="links">
+      <li class="link active">
+        <a href="#">
+          <i class="fas fa-home"></i>&nbsp; Home
+        </a>
+      </li>
+      <li class="link">
+        <a href="#">
+          <i class="fas fa-money-check-alt"></i> &nbsp; Personal Investments
+        </a>
+      </li>
+      <li class="link">
+        <a href="#">
+          <i class="fas fa-hand-holding-usd"></i> &nbsp; Loans
+        </a>
+      </li>
+      <li class="link">
+        <a href="#">
+          <i class="fas fa-donate"></i> &nbsp; Investments and Deposits
+        </a>
+      </li>
+      <li class="link">
+        <a href="#">
+          <i class="fas fa-address-card"></i> &nbsp; About
+        </a>
+      </li>
+      <li class="link">
+        <a href="#">
+          <i class="fas fa-user-plus"></i> &nbsp; Sign-Up
+        </a>
+      </li>
+      <li class="link">
+        <a href="#">
+          <i class="fas fa-sign-in-alt"></i> &nbsp; Dashboard Login
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+  // Sidebar Javascript
+const hamburgerMenu = document.getElementById('hamburger-icon')
+const link = document.querySelectorAll('.link')
+const closeBtn = document.getElementById('close')
+
+for (let i = 0; i < link.length; i++) {
+  link[i].addEventListener('click', function () {
+    var current = document.getElementsByClassName('active')
+    current[0].className = current[0].className.replace(' active', '')
+    this.className += ' active'
+  })
+}
+
+// Menu
+hamburgerMenu.addEventListener('click', function () {
+  const sidebar = document.getElementById('sidebars')
+  if(sidebar.style.display == "none"){
+    sidebar.style.display = "block"
+  } else {
+    sidebar.style.display = "none"
+  }
+  console.log('first switch')
+  // sidebar.style.display = "none";
+  // sidebar.classList.toggle('toggle')
+})
+
+//   close icon
+function closeNav() {
+  const sidebar = document.getElementById('sidebars')
+  sidebar.classList.toggle('toggle')
+}
+
+</script>

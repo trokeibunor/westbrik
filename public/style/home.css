@@ -338,3 +338,89 @@
   color: #fff;
   font-size: 16px;
 }
+/* for tablets */
+@media only screen and (max-width: 992px) {
+  .hero {
+    height: 70vh;
+  }
+  #hero-right {
+    display: none;
+  }
+  .options {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+  .options div {
+    justify-self: center;
+    align-items: center;
+    width: 22.5rem;
+    height: 22.5rem;
+    grid-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    margin-top: 3.5rem;
+  }
+  .options div a {
+    margin-top: 23rem;
+    font-size: 1.25rem;
+  }
+  .personal {
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 0rem !important;
+  }
+  .investments {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 0rem !important;
+  }
+  .account {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .loans {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .deposits {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .terms {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .learn_more {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 5rem auto 2.5rem 1.5rem;
+    justify-self: center;
+  }
+  .learn_more div {
+    margin-top: 1.5rem;
+    width: auto;
+    height: 100%;
+  }
+  .learn_more div h4 {
+    margin-bottom: 0rem;
+  }
+  .learn_more div p {
+    margin-bottom: 0.75rem;
+  }
+  .learn_more div a {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  .new_info {
+    height: auto;
+  }
+  .app {
+    height: 21vh;
+  }
+  .little_info {
+    height: 30vh;
+    background-size: 100% auto;
+  }
+  .little_info .right {
+    height: 25vh;
+  }
+}

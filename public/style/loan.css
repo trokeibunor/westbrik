@@ -2,14 +2,16 @@
   display: grid;
   grid-template-columns: auto auto;
   width: 100%;
-  height: 50vh;
-  background-image: url('/images/personal_background.jpg');
+  height: 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/child_smile.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   opacity: 0.8;
   overflow: hidden;
+  color: #fff;
 }
 #hero-left {
   display: grid;
@@ -24,7 +26,6 @@
 }
 #hero-left h3 {
   width: 100%;
-  color: #000;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -115,7 +116,7 @@
   background-color: #fff;
   margin: 2.5rem auto;
   border-radius: 4px;
-  box-shadow: 1px 1px 1px 1px rgb(184, 184, 184);
+  box-shadow: 1px 1px rgb(184, 184, 184);
 }
 #card-section div img {
   width: 100%;
