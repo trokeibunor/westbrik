@@ -36,6 +36,9 @@ p {
   /* box-shadow: inset 0 0 0 2000px rgba(51, 50, 51, 0.151); */
   background-image: linear-gradient(to right, #003b71, #fff);
 }
+.nav-mobile {
+  display: none;
+}
 .top {
   display: grid;
   grid-row: 1;
@@ -242,13 +245,6 @@ p {
   text-decoration: none;
 }
 /* sidebar style */
-
-/* :root {
-  --bg-color: #000811;
-  --primary-color: #006ce0;
-  --border-radius: 6px;
-  --color: #2b82df;
-  /* --box-shadow: #0b488a 5px 0px 50px 0px;} */
 .sidebar {
   display: none;
   height: 92%;
@@ -259,6 +255,7 @@ p {
   width: 50%;
   background: #003b71;
   /* background-image: linear-gradient(to right, #003b71, #fff); */
+  box-shadow: 0px 1px 40px #003b71;
   transition: left 0.5s ease;
   -webkit-transition: left 0.5s ease;
   -moz-transition: left 0.5s ease;
@@ -269,7 +266,7 @@ p {
 .sidebar ul {
   list-style: none;
   margin-top: 5rem;
-  height: 100%;
+  height: 90%;
 }
 
 .sidebar ul li {
@@ -306,7 +303,14 @@ p {
 .sidebar li a:hover {
   margin-left: 2px;
 }
-
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+.copy-right {
+  text-align: center;
+  font-size: large;
+  color: #fff;
+}
 .close-icon {
   color: white;
   position: absolute;
@@ -317,26 +321,14 @@ p {
   cursor: pointer;
 }
 
-/* .hamburger-menu {
-  display: none;
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  margin: 2.5rem 2.5rem auto auto;
-  font-size: 3rem;
-  color: #006ce0;
-  cursor: pointer;
-} */
-
-body .toggle.sidebar {
+/* body .toggle.sidebar {
   left: -300px;
 }
 
 body.toggle.section {
   margin-left: 0;
   width: 100%;
-}
+} */
 /* footer style */
 .top_footer {
   width: 100%;
@@ -402,19 +394,21 @@ li a img {
   }
   .nav-mobile {
     position: fixed;
-    z-index: 2;
+    z-index: 3;
     display: grid;
     grid-template-columns: 90% 10%;
     width: 100%;
-    height: 8rem;
+    height: 10rem;
     /* background-image: linear-gradient(to right, #003b71, #fff); */
     background-color: #003b71;
+    border-bottom: 5px solid #fff;
+    box-shadow: 0px 1px 40px #003b71;
   }
   #hamburger-icon {
     display: grid;
     grid-template-columns: 2;
     justify-content: center;
     align-self: center;
-    color: #c94c04;
+    color: #fff;
   }
 }
