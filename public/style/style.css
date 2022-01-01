@@ -411,4 +411,33 @@ li a img {
     align-self: center;
     color: #fff;
   }
+  /* Footer tab */
+  .top_footer ul {
+    justify-content: center;
+  }
+  .main_footer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    width: 80%;
+    height: 20vh;
+  }
+  .main_footer div {
+    display: grid;
+    justify-content: flex-start;
+    align-self: start;
+    width: 100%;
+    padding-left: 2rem;
+  }
+  .main_footer .about {
+    grid-column: 1;
+  }
+  .main_footer .support {
+    grid-column: 2;
+  }
+  .main_footer .find {
+    grid-column: 3;
+  }
+  .main_footer .social {
+    grid-column: 4;
+  }
 }
