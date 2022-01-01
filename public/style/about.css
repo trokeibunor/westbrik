@@ -9,7 +9,6 @@
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
   overflow: hidden;
 }
 #hero-left {
@@ -29,7 +28,7 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  line-height: 2, 5rem;
+  line-height: 2.5rem;
   font-weight: 200;
 }
 .button-md {
@@ -133,4 +132,60 @@
 }
 .third-grid .text_box div {
   margin: auto 2.5rem;
+}
+/* for tablets */
+@media only screen and (max-width: 992px) and (orientation: portrait) {
+  .hero {
+    height: 50vh;
+  }
+  #hero-left h3 {
+    width: 85%;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 200;
+  }
+  .first-grid {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .text_box {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .image_box {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .second-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+  .image_one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .text_one {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .image_two {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .text_two {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .third-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .third-grid .text_box {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .third-grid .image_box {
+    grid-column: 1;
+    grid-row: 2;
+  }
 }

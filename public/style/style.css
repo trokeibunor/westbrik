@@ -321,14 +321,6 @@ hr.dashed {
   cursor: pointer;
 }
 
-/* body .toggle.sidebar {
-  left: -300px;
-}
-
-body.toggle.section {
-  margin-left: 0;
-  width: 100%;
-} */
 /* footer style */
 .top_footer {
   width: 100%;
@@ -382,7 +374,7 @@ li a img {
   height: 20px;
 }
 /* for tablets */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) and (orientation: portrait) {
   .hamburger-menu {
     display: block;
   }
@@ -410,6 +402,13 @@ li a img {
     justify-content: center;
     align-self: center;
     color: #fff;
+  }
+  .page_notice {
+    display: none;
+  }
+  /* Resource links */
+  .help-links a {
+    font-size: 12px;
   }
   /* Footer tab */
   .top_footer ul {

@@ -9,7 +9,6 @@
   background-attachment: scroll;
   background-size: cover;
   background-position: top;
-  opacity: 0.8;
   overflow: hidden;
   color: #fff;
 }
@@ -185,4 +184,33 @@
 }
 .text-info p {
   margin: 20px auto;
+}
+/* for tablets */
+@media only screen and (max-width: 992px) and (orientation: portrait) {
+  .hero {
+    height: 50vh;
+  }
+  #hero-left h3 {
+    margin-top: 3rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .button-md {
+    width: 178px;
+    height: 62px;
+    font-size: 2rem;
+    line-height: 62px;
+  }
+  .select-box {
+    border-radius: 6px;
+    margin: 2.5rem 5rem;
+    height: 10vh;
+  }
+  .top-info h3 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .text-info p {
+    font-size: 0.75rem;
+  }
 }

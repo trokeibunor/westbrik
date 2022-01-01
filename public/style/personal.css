@@ -4,13 +4,14 @@
   grid-template-columns: auto auto;
   width: 100%;
   height: 70vh;
-  background-image: url('/images/personal_background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/personal_background.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
   background-position: center;
-  opacity: 0.8;
   overflow: hidden;
+  color: #fff;
 }
 #hero-left {
   display: grid;
@@ -24,7 +25,6 @@
 }
 #hero-left h3 {
   width: 60%;
-  color: #000;
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -273,3 +273,21 @@
   color: #c94c06;
 }
 /* End of service list section */
+/* for tablets */
+@media only screen and (max-width: 992px) and (orientation: portrait) {
+  #hero-right {
+    display: none;
+  }
+  #hero-left h3 {
+    width: 100%;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  #hero-left h6 {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+  }
+}
