@@ -350,6 +350,21 @@
     font-size: 3.5rem;
     line-height: 3.5rem;
   }
+  .products h5 {
+    font-weight: normal;
+  }
+  .learn_more div h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .learn_more div p {
+    font-weight: normal;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  .learn_more div a {
+    font-size: 1.35rem;
+  }
   .options {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
@@ -457,11 +472,33 @@
     font-size: 1.35rem;
   }
   .new_info {
+    height: 55vh;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
   }
+  .info_right .text,
+  .info_left .text {
+    margin-top: auto;
+  }
+  .info_left {
+    justify-content: center;
+    align-items: center;
+  }
+  .info_right {
+    justify-content: center;
+    align-items: center;
+  }
+  .text h1 {
+    font-weight: bolder;
+  }
+  .text p {
+    font-weight: bold;
+  }
+  .app_img img {
+    width: 100%;
+  }
   .app {
-    height: 16vh;
+    height: 19vh;
   }
   .little_info {
     grid-template-columns: 40% 60%;
