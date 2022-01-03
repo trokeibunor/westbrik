@@ -340,4 +340,13 @@ tbody tr th {
   tr {
     font-size: 1.25rem;
   }
+  .notice {
+    height: 40vh;
+  }
+  .notice div h6 {
+    font-weight: bold;
+  }
+  .notice div ul li a {
+    font-size: 1rem;
+  }
 }

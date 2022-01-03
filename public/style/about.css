@@ -189,3 +189,32 @@
     grid-row: 2;
   }
 }
+/* For Mobile */
+@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+  #hero-left h3 {
+    font-weight: bold;
+  }
+  .button-md {
+    width: 178px;
+    height: 68px;
+    line-height: 68px;
+    font-weight: 2rem;
+  }
+  .first-grid {
+    grid-template-rows: auto auto;
+  }
+  .second-grid {
+    height: auto;
+  }
+  .image_box {
+    height: 28vh !important;
+  }
+  .text_one h2,
+  .text_two h2 {
+    margin: 2.5rem 5rem;
+  }
+  .text_one p,
+  .text_two p {
+    margin: 5rem !important;
+  }
+}
