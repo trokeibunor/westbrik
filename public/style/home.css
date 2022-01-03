@@ -433,18 +433,20 @@
   #hero-left h4 {
     font-size: 5rem;
     line-height: 5rem;
+    font-weight: 800;
   }
   #hero-left h5 {
     width: 90%;
     margin-top: 1rem;
     font-size: 2rem;
     line-height: 2.4rem;
+    font-weight: 500;
   }
   .button-lg {
-    width: 160px;
-    height: 48px;
-    line-height: 48px;
-    font-size: 1.5rem;
+    width: 200px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 2rem;
   }
   .options div {
     width: 20rem;
