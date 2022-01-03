@@ -291,3 +291,46 @@
     font-weight: 100;
   }
 }
+/* For Mobile */
+@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+  .hero-left h3 {
+    font-weight: bolder;
+  }
+  .hero-left h6 {
+    font-weight: normal;
+  }
+  .button-md {
+    width: 180px;
+    height: 68px;
+    font-size: 2rem;
+    line-height: 68px;
+  }
+  #card-section {
+    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+  .card_one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .card_two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .card_three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .card_four {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .card_five {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .card_six {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
