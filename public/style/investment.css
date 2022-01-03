@@ -323,3 +323,21 @@ tbody tr th {
     grid-row: 2;
   }
 }
+/* For Mobile */
+@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+  #hero-left h4 {
+    font-weight: bold;
+  }
+  .button-lg {
+    width: 178px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 2rem;
+  }
+  .simp_desc p {
+    font-weight: normal;
+  }
+  tr {
+    font-size: 1.25rem;
+  }
+}

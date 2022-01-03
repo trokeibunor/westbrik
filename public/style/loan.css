@@ -214,3 +214,45 @@
     font-size: 0.75rem;
   }
 }
+/* For Mobile */
+@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+  #hero-left h3 {
+    font-weight: bolder;
+  }
+  .button-md {
+    width: 178px;
+    height: 68px;
+    line-height: 68px;
+  }
+  .top-info h3 {
+    font-weight: normal;
+  }
+  #card-section {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+  }
+  .card_one {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  .card_two {
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+  .card_three {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .card_four {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .card_five {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  .card_six {
+    grid-column-start: 2;
+    grid-row-start: 3;
+  }
+}

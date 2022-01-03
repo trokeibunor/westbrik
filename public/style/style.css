@@ -450,4 +450,19 @@ li a img {
   .sidebar li a {
     font-size: 2rem;
   }
+  .resource {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+  }
+  .res-left {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .res-right {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .help-links {
+    margin-left: 5rem;
+  }
 }
