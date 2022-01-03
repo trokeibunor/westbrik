@@ -193,7 +193,7 @@ p {
 .res-link .text-box a {
   text-decoration: none;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: bolder;
   color: #003b71;
 }
 .res-link .text-box a:hover {
@@ -202,7 +202,7 @@ p {
 .res-link .text-box p {
   color: #333;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: bold;
 }
 .help-links {
   margin: 2.5rem;

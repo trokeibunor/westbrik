@@ -293,10 +293,10 @@
 }
 /* For Mobile */
 @media only screen and (max-device-width: 812px) and (orientation: portrait) {
-  .hero-left h3 {
+  #hero-left h3 {
     font-weight: bolder;
   }
-  .hero-left h6 {
+  #hero-left h6 {
     font-weight: normal;
   }
   .button-md {
