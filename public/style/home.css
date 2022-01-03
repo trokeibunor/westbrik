@@ -346,6 +346,10 @@
   #hero-right {
     display: none;
   }
+  .hero-left h4 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
   .options {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
@@ -422,5 +426,42 @@
   }
   .little_info .right {
     height: 25vh;
+  }
+}
+/* for mobile */
+@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+  #hero-left h4 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  #hero-left h5 {
+    width: 90%;
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  .button-lg {
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 1.5rem;
+  }
+  .options div {
+    width: 20rem;
+    height: 20rem;
+  }
+  .options div a {
+    margin-top: 21rem;
+    font-size: 1.35rem;
+  }
+  .new_info {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .app {
+    height: 16vh;
+  }
+  .little_info {
+    grid-template-columns: 40% 60%;
   }
 }
