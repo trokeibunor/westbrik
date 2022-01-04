@@ -55,5 +55,5 @@ Route.get('/login', () => {
   return 'Get/login'
 })
 Route.get('/signup', () => {
-  return 'Get/signup'
+  return View.render('page/signup')
 })
