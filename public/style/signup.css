@@ -21,6 +21,7 @@
   font-size: 24px;
   font-weight: 600;
   margin: 0 0 30px 0;
+  color: #c94c04;
 }
 .container .form-outer {
   width: 100%;
@@ -113,7 +114,7 @@ form .page .btns button.next {
 .progress-bar .step .bullet {
   height: 25px;
   width: 25px;
-  border: 2px solid #000;
+  border: 2px solid #c94c04;
   display: inline-block;
   border-radius: 50%;
   position: relative;
@@ -139,10 +140,10 @@ form .page .btns button.next {
   position: absolute;
   content: '';
   bottom: 11px;
-  right: -5rem;
+  right: -9rem;
   height: 3px;
-  width: 5rem;
-  background: #262626;
+  width: 9rem;
+  background: #c94c04;
 }
 .progress-bar .step .bullet.active:after {
   background: #003b71;
@@ -166,8 +167,8 @@ form .page .btns button.next {
 .progress-bar .step .check {
   position: absolute;
   left: 50%;
-  top: 70%;
-  font-size: 14px;
+  top: 78%;
+  font-size: 16px;
   transform: translate(-50%, -50%);
   display: none;
 }
@@ -189,5 +190,10 @@ form .page .btns button.next {
   form .page .field .label {
     top: -2.188rem;
     font-size: 1.25rem;
+  }
+  .progress-bar .step .bullet:before,
+  .progress-bar .step .bullet:after {
+    right: -10.5rem;
+    width: 10.5rem;
   }
 }
