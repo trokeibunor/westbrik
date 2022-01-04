@@ -15,6 +15,7 @@
   text-align: center;
   border-radius: 5px;
   padding: 50px 35px;
+  /* box-shadow: 1px 1px #333; */
 }
 .container header {
   font-size: 24px;
@@ -178,5 +179,15 @@ form .page .btns button.next {
   .container {
     margin-top: 10vh;
     width: 80%;
+  }
+  .form-outer form .page .title {
+    font-size: 1.5rem;
+  }
+  .form-outer form .page .field {
+    height: 4.25rem;
+  }
+  form .page .field .label {
+    top: -2.188rem;
+    font-size: 1.25rem;
   }
 }
