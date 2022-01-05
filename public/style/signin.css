@@ -1,0 +1,77 @@
+.holder {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  justify-self: center;
+  align-self: center;
+}
+#signCard {
+  display: grid;
+  grid-column: 2;
+  margin-top: 15rem;
+  width: 100%;
+}
+#title {
+  font-size: 5rem;
+  font-weight: 800;
+  color: #333;
+}
+.radio-inline,
+.checkbox {
+  height: 2.5rem;
+  font-size: 3rem;
+  margin: 1.5rem auto;
+}
+#online {
+  width: 3.5rem;
+  height: 2.5rem;
+}
+.form-content {
+  width: 100%;
+  height: auto;
+}
+.user-id input,
+.password input {
+  margin: 2.5rem auto;
+  width: 100%;
+  height: 10rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 3.75rem;
+  font-weight: 500;
+  padding-left: 2rem;
+  background-color: #e6e6fa;
+  box-shadow: 3px 5px 6px #ccc;
+}
+#remember {
+  width: 3.5rem;
+  height: 2.5rem;
+}
+.supportLinks {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: start;
+  font-size: 2.5rem;
+  color: #333;
+  margin: 1rem auto;
+}
+.supportLinks a {
+  color: #003b71;
+  text-decoration: none;
+}
+.supportLinks a:hover {
+  color: #c94c04;
+}
+.submitbutton {
+  margin: 40vh auto 1rem auto;
+  width: 100%;
+  height: 10rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 4rem;
+  color: #fff;
+  background-color: #c94c04;
+  font-weight: 600;
+}

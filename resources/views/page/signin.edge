@@ -1,0 +1,44 @@
+@layout('layout')
+@section('head')
+  <link rel="stylesheet" href="/style/signin.css">
+@endsection
+@section('header')
+  <header>
+      @include('partials/nav.edge')
+      <div class="page_notice">
+        <p>Personal Banking Services</p>
+    </div>
+  </header>
+@endsection
+@section('content')
+<div class="holder">
+    <div id="signCard">
+        <form action="#" method="post">
+            <div id="title">
+                Sign On
+            </div>
+            <div class="radio-inline">
+                <label for="online" class="online"><input type="radio" id="online" name="fav_option" value="Online Banking"> Online Banking</label>
+            </div>
+            <div class="form-content">
+                <div class="user-id">
+                    <input type="text" name="userid" id="userid" placeholder="user Id">
+                </div>
+                <div class="password">
+                    <input type="password" name="password" id="password" placeholder="password">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="remember" id="remember"> <span>Remember User ID</span>
+                </div>
+                <button class="submitbutton" type="submit">Submit</button>
+                <div class="supportLinks">
+                    <a href="#">ForgotPassword/ID</a>
+                    <a href="/signup">Sign Up Now</a>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</div>
+{{--  @include('partials/footer')  --}}
+@endsection

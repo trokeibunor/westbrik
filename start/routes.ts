@@ -51,8 +51,8 @@ Route.get('/terms', () => {
   return 'Get/terms'
 })
 // login and Signup get requests
-Route.get('/login', () => {
-  return 'Get/login'
+Route.get('/signin', () => {
+  return View.render('page/signin')
 })
 Route.get('/signup', () => {
   return View.render('page/signup')
