@@ -156,24 +156,24 @@
 .options {
   display: grid;
   width: 100%;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
 }
 .options div {
   display: grid;
-  width: 11rem;
-  height: 11rem;
+  width: 14rem;
+  height: 14rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 4px;
 }
 .options div a {
-  margin-top: 12rem;
+  margin-top: 15rem;
   text-align: left;
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 600;
-  width: 75%;
+  width: 80%;
   color: #003b71;
 }
 .options div a:hover {
@@ -205,28 +205,29 @@
 }
 .learn_more {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
+  height: 50vh;
   margin-top: 10rem;
   margin-bottom: 10rem;
 }
-.learn_more div h4 {
+.learn_more div h2 {
   margin-bottom: 2rem;
-  font-size: 1.35rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: #003b71;
 }
 .learn_more div p {
   width: 85%;
-  font-size: 1.125;
+  font-size: 1.5;
   line-height: 1.25rem;
   font-weight: 300;
   margin-bottom: 1.35rem;
 }
-.learn_more div a {
-  font-size: 1.125rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: #003b71;
+.learn_more div img {
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+  height: 100%;
 }
 /* The end of Product section */
 .new_info {
@@ -425,10 +426,6 @@
   .learn_more div p {
     margin-bottom: 0.75rem;
   }
-  .learn_more div a {
-    font-size: 1rem;
-    font-weight: normal;
-  }
   .new_info {
     height: auto;
   }
@@ -470,6 +467,27 @@
   .options div a {
     margin-top: 21rem;
     font-size: 1.35rem;
+  }
+  .learn_more {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    height: auto;
+  }
+  .text-holder {
+    grid-row: 1;
+    width: 100%;
+  }
+  .text-holder h2 {
+    font-size: 3.5rem !important;
+  }
+  .text-holder p {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .image-holder {
+    grid-row: 2;
+    width: 100%;
   }
   .new_info {
     height: 55vh;
