@@ -20,7 +20,7 @@
 .radio-inline,
 .checkbox {
   height: 2.5rem;
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 1.5rem auto;
 }
 #online {
@@ -38,10 +38,10 @@
   height: 10rem;
   border: none;
   border-radius: 1rem;
-  font-size: 1.75rem;
+  font-size: 2.25rem;
   font-weight: 500;
   padding-left: 2rem;
-  background-color: #e6e6fa;
+  background-color: #003a7128;
   box-shadow: 3px 5px 6px #ccc;
 }
 #remember {
