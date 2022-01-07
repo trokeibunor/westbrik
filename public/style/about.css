@@ -134,7 +134,7 @@
   margin: auto 2.5rem;
 }
 /* for tablets */
-@media only screen and (max-width: 992px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) {
   .hero {
     height: 50vh;
   }
@@ -190,7 +190,7 @@
   }
 }
 /* For Mobile */
-@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+@media only screen and (max-device-width: 812px) {
   #hero-left h3 {
     font-weight: bold;
   }

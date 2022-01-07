@@ -340,7 +340,7 @@
   font-size: 16px;
 }
 /* for tablets */
-@media only screen and (max-width: 992px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) {
   .hero {
     height: 70vh;
   }
@@ -441,7 +441,7 @@
   }
 }
 /* for mobile */
-@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+@media only screen and (max-device-width: 812px) {
   #hero-left h4 {
     font-size: 5rem;
     line-height: 5rem;

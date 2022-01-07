@@ -274,7 +274,7 @@
 }
 /* End of service list section */
 /* for tablets */
-@media only screen and (max-width: 992px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) {
   #hero-right {
     display: none;
   }
@@ -292,7 +292,7 @@
   }
 }
 /* For Mobile */
-@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+@media only screen and (max-device-width: 812px) {
   #hero-left h3 {
     font-weight: bolder;
   }

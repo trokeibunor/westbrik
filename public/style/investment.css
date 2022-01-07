@@ -295,7 +295,7 @@ tbody tr th {
   color: #c94c06;
 }
 /* for tablets */
-@media only screen and (max-width: 992px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) {
   #hero-right {
     display: none;
   }

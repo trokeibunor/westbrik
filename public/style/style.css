@@ -373,7 +373,7 @@ li a img {
   height: 20px;
 }
 /* for tablets */
-@media only screen and (max-width: 992px) and (orientation: portrait) {
+@media only screen and (max-width: 1024px) {
   .hamburger-menu {
     display: block;
   }
@@ -440,7 +440,7 @@ li a img {
   }
 }
 /* For Mobile */
-@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+@media only screen and (max-device-width: 812px) {
   .sidebar {
     width: 75%;
   }
