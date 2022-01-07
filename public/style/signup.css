@@ -181,19 +181,38 @@ form .page .btns button.next {
     margin-top: 10vh;
     width: 80%;
   }
+  .container header {
+    font-size: 3.5rem !important;
+  }
+  .progress-bar .step p {
+    font-size: 1.5rem !important;
+  }
   .form-outer form .page .title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .form-outer form .page .field {
-    height: 4.25rem;
+    height: 6rem;
+    font-size: 2.5rem !important;
+    margin-top: 3.5rem;
+  }
+  .field select {
+    font-size: 2.5rem !important;
+  }
+  .field input {
+    font-size: 2.5rem !important;
+    /* margin-top: 1.5rem; */
   }
   form .page .field .label {
     top: -2.188rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .progress-bar .step .bullet:before,
   .progress-bar .step .bullet:after {
     right: -10.5rem;
     width: 10.5rem;
+  }
+  button {
+    font-size: 2rem !important;
+    font-weight: 600 !important;
   }
 }

@@ -213,6 +213,31 @@ tbody tr th {
 .opp-text ul {
   list-style-type: square;
 }
+.learn_more {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 55vh;
+  margin: 10rem 5rem;
+}
+.learn_more div h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #003b71;
+}
+.learn_more div p {
+  width: 85%;
+  font-size: 1.5;
+  line-height: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1.35rem;
+}
+.learn_more div img {
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
 /* Notice Section */
 .notice_section {
   background-color: #f5f5f5;
@@ -327,6 +352,10 @@ tbody tr th {
 @media only screen and (max-device-width: 812px) and (orientation: portrait) {
   #hero-left h4 {
     font-weight: bold;
+  }
+  .learn_more {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
   }
   .button-lg {
     width: 178px;
