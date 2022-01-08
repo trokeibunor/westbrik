@@ -78,12 +78,12 @@ p {
 }
 .down {
   display: inline-grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   width: 100%;
   height: fit-content;
   grid-column: 3;
   grid-row: 2;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 5px;
 }
 #about a {
@@ -99,7 +99,7 @@ p {
   width: auto;
   height: 1.5rem;
   background-color: #c94c04;
-  margin: 0px 10px;
+  margin-right: 3.25rem;
   padding: 5px;
 }
 #login a {
@@ -107,9 +107,9 @@ p {
   color: #fff;
   line-height: 1.5rem;
 }
-#signup {
+/* #signup {
   display: grid;
-  grid-column: 2;
+  grid-column: 1;
   justify-content: flex-start;
   padding: 5px;
   margin: 0px 2px;
@@ -120,7 +120,7 @@ p {
   text-decoration: none;
   color: #001c35;
   line-height: 1.5rem;
-}
+} */
 .link {
   /* border-top: 1px solid #001c3579; */
   background-color: #003b71;

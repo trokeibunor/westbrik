@@ -176,7 +176,7 @@ form .page .btns button.next {
   display: block;
   color: #fff;
 }
-@media only screen and (max-device-width: 812px) and (orientation: portrait) {
+@media only screen and (max-device-width: 812px) {
   .container {
     margin-top: 10vh;
     width: 80%;

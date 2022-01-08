@@ -48,7 +48,11 @@ Route.get('/about', () => {
 })
 Route.get('/terms', () => {
   // This page is for the terms and conditions
-  return 'Get/terms'
+  return View.render('page/terms')
+})
+Route.get('/privacy', () => {
+  // This page is for the terms and conditions
+  return View.render('page/privacy')
 })
 // login and Signup get requests
 Route.get('/signin', () => {
